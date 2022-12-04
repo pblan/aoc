@@ -1,0 +1,8 @@
+# conda env create -f environment.yml && conda activate aoc
+# conda env update -f environment.yml --prune
+name: aoc
+dependencies:
+  - python>=3.10
+  - pip
+  - pip:
+    - -r requirements.txt
